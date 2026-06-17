@@ -1,0 +1,12 @@
+/* Scoped to the (rest) route group via import in (rest)/layout.tsx */
+
+main {
+  padding: 1rem;
+}
+
+header,
+footer {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+    sans-serif;
+}
+

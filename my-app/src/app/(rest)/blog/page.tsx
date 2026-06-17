@@ -1,8 +1,10 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-export default function Blog() {
-    return <>
-    <div>Welcome to the Blog Page</div>
-    
-    </>;
-  }
+export default async function Blog() {
+  await new Promise((res) => setTimeout(() => res('hello'), 2000));
+  return (
+    <>
+      <div>Welcome to the Blog Page</div>
+    </>
+  );
+}

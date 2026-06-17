@@ -1,5 +1,5 @@
 function formateDate(date: Date) {
-    return date.toLocaleDateString();
+  return date.toLocaleDateString();
 }
 
 export default formateDate;
